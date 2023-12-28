@@ -65,7 +65,7 @@ export const LiveMonitoring = () => {
             let senddata = { "O": "0" };
             try {
                 axios.post(url, senddata, { timeout: 60000 }).then(response => {
-                    let newData = response.data[0];
+                    let newData = response.data;
                     if (newData || newData.length > 0) {
                         setData(newData[0]);
                         setVisible(true);

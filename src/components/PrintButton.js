@@ -85,13 +85,13 @@ export const PrintButton = ({ data, tableHeader, printTitle, pageNo, type }) => 
                     `<td>${item.L}</td>
                       <td>${item.P}</td>
                       <td>${item.A}</td>
+                      <td>${item.X}</td>
                       <td>${item.H}</td>
                       <td>${item.B}</td>
                       <td>${item.D}</td>
                       <td>${item.R}</td>
                       <td>${item.N}</td>
-                      <td>${item.S}</td>
-                      <td>${item.X}</td>`
+                      <td>${item.S}</td>`
                     : (
                       type === 2 ?
                         `<td>${item.F}</td>
